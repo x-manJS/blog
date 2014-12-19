@@ -1,5 +1,5 @@
 ---
-layout:default
+layout: default
 title: Linux下安装Jekyll笔记
 ---
 

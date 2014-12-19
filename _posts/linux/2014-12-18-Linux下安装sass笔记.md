@@ -1,5 +1,5 @@
 ---
-layout:default
+layout: default
 title: Linux下安装Sass笔记
 ---
 
