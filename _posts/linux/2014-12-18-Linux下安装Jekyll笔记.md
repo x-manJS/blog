@@ -4,6 +4,8 @@ title: Linux下安装Jekyll笔记
 ---
 
 
+需要安装node
+
 安装jekyll
 
 	sudo gem install jekyll
