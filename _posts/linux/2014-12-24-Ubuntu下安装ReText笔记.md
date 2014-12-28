@@ -12,4 +12,3 @@ Ubuntu下用apt-get安装ReText，执行下面这些就可以了。
 	sudo apt-get update
 	sudo apt-get install retext
 
-安装完后，在终端输入retext就可以打开retext了。

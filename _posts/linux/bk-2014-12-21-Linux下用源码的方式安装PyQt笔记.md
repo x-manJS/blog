@@ -51,5 +51,3 @@ pyqt在Linux是经常用到的桌面开发工具。 而用python的pyqt包用来
 
 
 
-
-

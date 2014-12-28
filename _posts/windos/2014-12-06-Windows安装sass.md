@@ -20,8 +20,7 @@ ruby安装
 
 
 
-##gem网络原因（你懂的）解决方案##
-	
+##gem网络原因（你懂的）解决方案##	
 解决方案就是替换ruby源，使用淘宝源。 一步一步敲入下列代码:
 
 	$ gem sources --remove https://rubygems.org/
@@ -32,5 +31,3 @@ ruby安装
 	https://ruby.taobao.org
 	# 请确保只有 ruby.taobao.org
 	$ gem install sass
-
-完成后就可以了。具体的请看[淘宝源](https://ruby.taobao.org/)

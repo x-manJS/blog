@@ -54,4 +54,3 @@ title: Linux下安装Ruby环境笔记
 
 **M**
 
-Linux的Path还不熟悉，要另外花时间学习下。

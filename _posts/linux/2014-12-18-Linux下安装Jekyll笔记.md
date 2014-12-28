@@ -20,3 +20,4 @@ title: Linux下安装Jekyll笔记
 	yum install ruby-devel
 
 问题解决。一些其他的linux版本需要装的是ruby-del，我用的centos要安装的是ruby-devel。这点有区别。
+
