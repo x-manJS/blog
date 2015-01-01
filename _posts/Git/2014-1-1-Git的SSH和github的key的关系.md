@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Git的SSH和github的key的关系
+tags: linux git ssh key
 ---
 
 新年快乐。
