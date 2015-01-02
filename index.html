@@ -9,18 +9,9 @@ layout: default
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-        <span class="post-meta">
-		{{ post.date | date: " %Y年%m月%-d日" }} 	
-		{% if post.tags %}
-		 {% for tag in post.tags %} <span class="tag">{{tag}}</span> {% endfor %}
-		{% endif %}
-	</span>
-
         <h2 class=¨entiry-title¨>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-
-	  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{  post.category | first }}</a>
-
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> 
+	  <span class="post-date">{{ post.date | date: " %Y年%m月%-d日" }} </span>
         </h2>
       </li>
     {% endfor %}

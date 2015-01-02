@@ -51,7 +51,7 @@ header.site-header
 .page-content{
 	background-color: $back-bg-color;
 	margin: 20px auto;
-	min-height: 600px;
+	min-height: 550px;
 	border: 1px solid #eaeaea;
 }
 
@@ -65,6 +65,13 @@ header.site-header
 .contact-list
 {
 	list-style: none;
+}
+.post-list{
+	list-style:none;
+}
+.post-link,.entiry-title span
+{
+	font-size: 14px; 
 }
 
 .p-left{

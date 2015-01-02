@@ -45,6 +45,12 @@ header.site-header {
 .contact-list {
   list-style: none; }
 
+.post-list {
+  list-style: none; }
+
+.post-link, .post-date {
+  font-size: 14px; }
+
 .p-left {
   width: 30%;
   float: left; }
