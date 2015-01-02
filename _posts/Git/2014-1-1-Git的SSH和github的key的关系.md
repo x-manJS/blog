@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Git的SSH和github的key的关系
 tags: linux git ssh key
 ---

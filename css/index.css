@@ -1,0 +1,54 @@
+@import url(/css/markdownpad.css);
+@import url(/css/common.css);
+@import url(pagintor.css);
+body {
+  width: 100%;
+  background-color: #f0f2f1;
+  position: relative; }
+
+header.site-header {
+  background: white;
+  border-bottom: 1px solid #dddddd; }
+
+.site-footer {
+  border-top: 1px solid #dddddd;
+  background-color: white; }
+
+.site-title {
+  font-size: 24px;
+  color: #000; }
+
+.site-nav {
+  overflow: hidden; }
+
+.trigger {
+  text-align: right; }
+
+.site-nav .trigger a {
+  /*float:left;*/
+  padding: 10px;
+  display: block;
+  clear: both; }
+
+.page-content {
+  background-color: white;
+  margin: 20px auto;
+  min-height: 550px;
+  border: 1px solid #eaeaea; }
+
+.page-content, .home, .wrapper {
+  max-width: 960px;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.contact-list {
+  list-style: none; }
+
+.p-left {
+  width: 30%;
+  float: left; }
+
+.p-right {
+  width: 70%;
+  float: right; }
