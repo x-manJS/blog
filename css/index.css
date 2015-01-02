@@ -48,7 +48,7 @@ header.site-header {
 .post-list {
   list-style: none; }
 
-.post-link, .post-date {
+.post-link, .post-date, .post-category {
   font-size: 14px; }
 
 .p-left {

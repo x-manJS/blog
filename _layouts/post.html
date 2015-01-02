@@ -5,7 +5,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%Y年%m月%-d日" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}{% if page.tags %}
+    <p class="post-meta">{{ page.date | date: "%Y年%m月%-d日" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} {{page.categories}} {% if page.tags %}
 		 {% for tag in page.tags %} <span class="tag">{{tag}}</span> {% endfor %}
 		{% endif %} {{ content.categories | first }}</p>
   </header>

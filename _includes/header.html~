@@ -4,6 +4,7 @@
 	
 	<div class="p-left">
 		<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+		<p>www.liaozenghui.com</p>
 	</div>
     
 	<div class="p-right">
@@ -16,10 +17,9 @@
 		{% endfor %}
 	      </div>
 	    </nav>
-	</div>
-    
-
+	</div>    
+	<div class="clear"></div>
   </div>
 
 </header>
-<div class="clear"></div>
+

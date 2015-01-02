@@ -69,7 +69,7 @@ header.site-header
 .post-list{
 	list-style:none;
 }
-.post-link,.entiry-title span
+.post-link,.post-date
 {
 	font-size: 14px; 
 }
