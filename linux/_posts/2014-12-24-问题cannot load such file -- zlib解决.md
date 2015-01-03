@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-12-24-问题cannot load such file -- zlib解决
+title: 问题cannot load such file -- zlib解决
 ---
 
 
