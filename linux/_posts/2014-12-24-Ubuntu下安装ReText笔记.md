@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Ubuntu下安装ReText笔记
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Linux下安装Ruby环境笔记
 ---
 

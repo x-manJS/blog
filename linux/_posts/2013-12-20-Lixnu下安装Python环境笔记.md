@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Lixnu下安装Python环境笔记
 ---
 

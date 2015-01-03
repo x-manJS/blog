@@ -1,6 +1,6 @@
 ---
-layout: default
-title: 2014-12-17-Linux下安装nodejs笔记
+layout: post
+title: Linux下安装nodejs笔记
 ---
 
 安装了个CentOS，尝试安装NodeJS。
