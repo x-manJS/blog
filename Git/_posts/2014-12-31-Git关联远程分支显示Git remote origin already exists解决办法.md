@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Git关联远程分支显示Git remote origin already exists解决办法
 ---
 

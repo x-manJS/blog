@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: post 
 title: Ubuntu下安装Grunt笔记
 tags: linux ubuntu grunt node
 ---
