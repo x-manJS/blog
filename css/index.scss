@@ -7,7 +7,7 @@ $wrap-content-width: 960px;
 
 $wrap-width: 100%;
 
-$cls-slider: #ddd;
+$cls-slider: yellowgreen;
 
 $body-bg-color: #F0F2F1;
 
@@ -22,10 +22,10 @@ body{
 header.site-header
 {
 	background: $header-bg-cls;
-	border-bottom: 1px solid $cls-slider;
+	border-bottom: 5px solid $cls-slider;
 }
 .site-footer{
-	border-top: 1px solid $cls-slider;
+	border-top: 5px solid $cls-slider;
 	background-color: $back-bg-color;
 }
 
