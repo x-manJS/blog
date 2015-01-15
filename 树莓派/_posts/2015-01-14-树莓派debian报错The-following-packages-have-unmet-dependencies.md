@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 树莓派的空间拓展
+title: 树莓派debian报错The following packages have unmet dependencies
 tags: linux 树莓派
 ---
 
