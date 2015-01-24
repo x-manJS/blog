@@ -3,16 +3,12 @@
 @import url(pagintor.css);
 body {
   width: 100%;
-  background-color: #f0f2f1;
+  background-color: #252525;
   position: relative; }
 
 header.site-header {
-  background: white;
-  border-bottom: 5px solid yellowgreen; }
-
-.site-footer {
-  border-top: 5px solid yellowgreen;
-  background-color: white; }
+  background: #00945d;
+  border-bottom: 2px solid black; }
 
 .site-title {
   font-size: 24px;
@@ -27,12 +23,13 @@ header.site-header {
 .site-nav .trigger a {
   /*float:left;*/
   padding: 10px;
-  display: block;
-  clear: both; }
+  display: inline-block;
+  clear: both;
+  color: #f8f8f8; }
 
 .page-content {
   background-color: white;
-  margin: 20px auto;
+  margin: 80px auto 20px auto;
   min-height: 550px;
   border: 1px solid #eaeaea;
   border-radius: 10px; }
@@ -52,6 +49,16 @@ header.site-header {
 .post-link, .post-date, .post-category {
   font-size: 14px; }
 
+.post-link {
+  display: block;
+  overflow: hidden; }
+
+.post-link:hover {
+  color: #009a61; }
+
+.right-icon {
+  float: right; }
+
 .p-left {
   width: 30%;
   float: left; }
@@ -62,3 +69,9 @@ header.site-header {
 
 .commont {
   border-top: 2px solid yellow; }
+
+.site-footer {
+  position: relative;
+  bottom: 0;
+  color: #f8f8f8;
+  font-size: 13px; }

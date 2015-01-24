@@ -1,12 +1,14 @@
 ---
-layout: default
+layout: page
+title: windows
 ---
 
-<div class="home">
+{% for post in site.categories['windows'] %}
+<li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}}<i class="iconfont right-icon"">&#402;</i></a></li>
+{% endfor %}
 
-  <h1 class="page-heading">文章列表</h1>
 
-  <ul class="post-list">
+<ul class="post-list">
     {% for post in paginator.posts %}
       <li>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -17,6 +19,3 @@ layout: default
     {% endfor %}
   </ul>
 
- {% include pagintor.html %}
-
-</div>

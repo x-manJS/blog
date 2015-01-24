@@ -1,17 +1,20 @@
 @import "/css/markdownpad.css";
 @import "/css/common.css";
 @import "pagintor.css";
-$header-bg-cls: #fff;
+
+$header-bg-cls: #00945D;
 
 $wrap-content-width: 960px;
 
 $wrap-width: 100%;
 
-$cls-slider: yellowgreen;
+$cls-slider: #000;
 
-$body-bg-color: #F0F2F1;
+$body-bg-color: #252525;
 
 $back-bg-color: #fff;
+
+$hover-cls: #009A61;
 
 body{
 	width:100%;
@@ -19,38 +22,11 @@ body{
 	position: relative;
 }
 
-header.site-header
-{
-	background: $header-bg-cls;
-	border-bottom: 5px solid $cls-slider;
-}
-.site-footer{
-	border-top: 5px solid $cls-slider;
-	background-color: $back-bg-color;
-}
-
-.site-title{
-	font-size: 24px;
-	color: #000;
-}
-
-.site-nav{
-	overflow: hidden;
-}
-.trigger{
-	text-align: right;
-}
-.site-nav .trigger a
-{
-	/*float:left;*/
-	padding: 10px;
-	display: block;
-	clear: both;
-}
+@import "header.scss";
 
 .page-content{
 	background-color: $back-bg-color;
-	margin: 20px auto;
+	margin: 80px auto 20px auto;
 	min-height: 550px;
 	border: 1px solid #eaeaea;
 	border-radius: 10px;
@@ -74,6 +50,16 @@ header.site-header
 {
 	font-size: 14px;   
 }
+.post-link{
+	display:block;
+	overflow:hidden;
+}
+.post-link:hover{
+	color: $hover-cls;
+}
+.right-icon{
+	float:right;
+}
 
 .p-left{
 	width: 30%;
@@ -86,3 +72,4 @@ header.site-header
 }
 
 @import "comment.scss";
+@import "footer.scss"; 

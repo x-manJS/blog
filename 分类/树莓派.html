@@ -1,0 +1,8 @@
+---
+layout: page
+title: 树莓派
+---
+
+{% for post in site.categories['树莓派'] %}
+<li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}}<i class="iconfont right-icon"">&#402;</i></a></li>
+{% endfor %}
