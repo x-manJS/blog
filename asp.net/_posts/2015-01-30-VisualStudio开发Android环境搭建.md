@@ -1,5 +1,5 @@
 ---
-layout： post
+layout: post
 title: VisualStudio+Xamarin开发Android环境搭建
 tags: android visualstudio xamarin
 ---
