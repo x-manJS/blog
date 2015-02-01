@@ -56,14 +56,14 @@ Android SDK配置完成，接下来验证配置是否成功。
 
 在工具-选项中：
 
-![](images/Asp.net/3.png)
+![](/images/Asp.net/3.png)
 
 
 如图，把 Android NDK和 Android SDK的路径改为你电脑上的磁盘路径。
 
 设置正确后就会在在工具菜单中看到Android选项了。
 
-![](images/Asp.net/4.png)
+![](/images/Asp.net/4.png)
 
 创建一个模拟器后就可以开始Android之旅了。
 
@@ -71,6 +71,6 @@ Android SDK配置完成，接下来验证配置是否成功。
 
 文件 - 新建项目 -Android就能新建应用了。
 
-![](images/Asp.net/5.png)
+![](/images/Asp.net/5.png)
 
 Enjoy!!!
