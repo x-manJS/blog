@@ -10,25 +10,76 @@ title: AboutMe
 
 <style>
 .section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+.section h2{
+	padding-left:20px;
+	text-align: center; 
+}
+.section p,.section ol li{
+	text-align: left; font-size: 28px;
+	padding:20px;
+}
 </style>
 </head>
 <body>
 <div id="dowebok">
-	<div class="section">
-		<h3>基本信息</h3>
-		<p>姓名：廖増晖</p>
+	<div class="section" id="section1">
+		<h3>关于我</h3>
+		<p style="text-align:left;">
+			<STRONG>姓名</STRONG>廖増晖，男，1990年09月
+		</p>
+		<p>
+			学历： 本科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系电话：1895049897* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail：476473631@qq.com
+		</p>
 	</div>
-	<div class="section">
-		<h3>第二屏</h3>s
-		<p>请查看右边的圆圈</p>
+	<div class="section" id="section2">
+		<h2>工作技能</h2>
+		<p style="text-align:left; padding-left:200px">1. C#语言，涉及ASP.NET MVC，WebApi，WinForm窗体，WinService等开发等。<br />
+				2. 前端技术，HTML，CSS，Javascript，使用backbone框架单页面开发。 涉及GRUNT，SPM构建工具<br />
+				3. PHP编程语言<br />
+				4. 数据库技术，SQLSERVE，ORACLE,Monogo,MySql<br />
+				5. NodeJS<br />
+			        6. linux 树莓派等。
+		</p>
 	</div>
-	<div class="section">
-		<h3>第三屏</h3>
-		<p>圆圈还可以设置位置，颜色s，加上 tip，点击可以控制</p>
+	<div class="section" id="section3">
+		<h3>工作经验</h3>
+		<p style="text-align:center;">
+2013年3月 - 2015-3月，在<a href="http://baike.baidu.com/link?url=IfaFeRn7Tg5Dyr59ZYqAjRWwsCnXlypm_w8NZZqX3ZyKWAl9YwWwZfvLA1uV3hK_thvUuhYO1r_cicfps8YXZa">在福建四创软件有限公司</a>任职。</p>
 	</div>
-	<div class="section">
-		<h3>第四屏</h3>
-		<p>这一屏</p>
+	<div class="section" id="section4">
+		<h3>项目经验</h3>
+		<p>
+			
+
+1. 开发值守服务程序，包括但不限于: 天气预报采集服务，百度消息推送，图片处理程序。<br/>
+2. 海洋监控系统接口的开发，为前端提供数据的接口。<br/>
+3. 报表系统，前后端未分离的网站系统，把数据进行表格的形式进行展示。<br/>
+4. 后台监控系统，开发监控服务，判断数据的到报是否，并提供接口展示。<br/>
+5. 会议室日历开发，内部系统，采用Nodejs作为系统的后端语言，前端使用单页面的形式。<br/>
+6. 后端管理工具系统，使用C#的MVC形式作为接口，前端单页面，实现对公司内的基础信息维护。<br/>
+		
+		</p>
+	</div>
+	<div class="section" id="section5">
+		<h2 style="color:#666">留言</h2>
+		<div class="comment">
+			<!-- 多说评论框 start -->
+			<div class="ds-thread" data-thread-key="onlyOneAboutMe" data-title="我的简历" data-url="http://liaozenghui.com/分类/AboutMe.html"></div>
+		<!-- 多说评论框 end -->
+		<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+		<script type="text/javascript">
+		var duoshuoQuery = {short_name:"liaozenghui"};
+			(function() {
+				var ds = document.createElement('script');
+				ds.type = 'text/javascript';ds.async = true;
+				ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+				ds.charset = 'UTF-8';
+				(document.getElementsByTagName('head')[0] 
+				 || document.getElementsByTagName('body')[0]).appendChild(ds);
+			})();
+			</script>
+		<!-- 多说公共JS代码 end -->
+		</div>
 	</div>
 </div>
 
@@ -37,8 +88,8 @@ title: AboutMe
 <script>
 $(function(){
 	$('#dowebok').fullpage({
-		sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
-		'navigation': true,
+		sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90','#fff'],
+		'navigation': true
 	});
 });
 </script>
