@@ -1,13 +1,9 @@
----
-title: AboutMe
----  
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="/css/jquery.fullPage.css">
-
+<title>我的简历</title>
 <style>
 .section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
 .section h2{
@@ -23,39 +19,19 @@ title: AboutMe
 <body>
 <div id="dowebok">
 	<div class="section" id="section1">
-		<h3>我</h3>
-		<p style="text-align:left; padding-left:200px">
-			<table width="80%" style="margin:auto;">
-				<tr>
-					<td align="right"><STRONG>姓名:</STRONG></td>
-					<td align="left">廖増晖</td>
-					<td></td>
-					<td align="right"><STRONG>性别：</STRONG></td>
-					<td align="left">男</td>
-				</tr>
-				<tr>
-					<td align="right"><STRONG>出生年月:</STRONG></td>
-					<td align="left">1990.09 </td>
-					<td></td>
-					<td align="right"><STRONG>学历：</STRONG></td>
-					<td align="left">本科</td>
-				</tr>
-				<tr>
-					<td align="right"><STRONG>E-mail：</STRONG></td>
-					<td align="left">476473631@qq.com</td>
-					<td></td>
-				</tr>
-			</table>
+		<h3>我是谁</h3>
+		<p style="text-align:left; padding-left:200px;font-size:22px">
+			我是廖増晖。老家在福建龙岩武平县，1990年出生。2013年毕业于福建师范大学协和学院计算机科学与技术专业（本科）。毕业后主要从事计算机C#和前端编程方面的工作。联系方式,E-mail地址：476473631@qq.com
 		</p>
 	</div>
 	<div class="section" id="section2">
-		<h2>工作技能</h2>
-		<p style="text-align:left; padding-left:200px">1. C#语言，涉及ASP.NET MVC，WebApi，WinForm窗体，WinService等开发等。<br />
-				2. 前端技术，HTML，CSS，Javascript，使用backbone框架单页面开发。 涉及GRUNT，SPM构建工具<br />
-				3. PHP编程语言<br />
-				4. 数据库技术，SQLSERVE，ORACLE,Monogo,MySql<br />
-				5. NodeJS<br />
-			        6. linux 树莓派等。
+		<h2>我能做什么</h2>
+		<p style="text-align:left; padding-left:200px">
+				后端方面，我可以使用C#语言进行winform窗体，ASP.NET MVC技术， WebApi技术，WinService等开发等。<br />
+				前端方面，我可以使用HTML，CSS，Javascript进行页面开发。能使用前端构建工具GRUNT或SPM进行开发。<br />
+				除了C#,也可以使用PHP和Nodejs进行开发。<br />
+				数据库技术方面了解SQLSERVE，ORACLE,Monogo,MySql等数据库。<br />
+				除了Windows系统，对Linux也有比较浓厚的兴趣。
 		</p>
 	</div>
 	<div class="section" id="section3">
@@ -67,7 +43,7 @@ title: AboutMe
 		<h3>项目经验</h3>
 		<p>
 			
-
+<strong>四创软件公司：</strong><br />
 1. 开发值守服务程序，包括但不限于: 天气预报采集服务，百度消息推送，图片处理程序。<br/>
 2. 海洋监控系统接口的开发，为前端提供数据的接口。<br/>
 3. 报表系统，前后端未分离的网站系统，把数据进行表格的形式进行展示。<br/>
@@ -77,6 +53,12 @@ title: AboutMe
 		
 		</p>
 	</div>
+	<section class="section">
+		<h2>关于这个博客</h2>
+		<P>
+			这个博客是托管在github，绑定了一个顶级域名，使用了ruby和jekyll系统搭建而成。里面的文档基本上都是我在平时遇到问题时最后的解决方案。 文章不一定经常更新。 <a href="http://www.liaozenghui.com">click here to index page</a>
+		</p>
+	</section>
 	<div class="section" id="section5">
 		<h2 style="color:#666">留言</h2>
 		<div class="comment">
@@ -105,7 +87,7 @@ title: AboutMe
 <script>
 $(function(){
 	$('#dowebok').fullpage({
-		sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90','#fff'],
+		sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90','#1bbc9b','#fff'],
 		'navigation': true
 	});
 });
