@@ -23,4 +23,29 @@ header.site-header
 	clear: both;
 	color: #f8f8f8;
 }
+.left-navigation{
+	height: 100%;
+	background-color: #252525;
+	position: fixed;
+	top:0;
+	left:0;
+	width: $leftNavigationWidth;
+}
+.left-navigation-header{
+	text-align: center;
+}
+.left-navigation-header a{
+	color: #99cc33;
+	text-decoration: none;
+}
+
+.category-list li {
+	display: block;
+}
+.category-list li  a{
+	display: block;
+	padding-left: 30%;
+	color: #fff;
+	font-size: 16px;
+}
 

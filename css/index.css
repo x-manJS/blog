@@ -3,7 +3,7 @@
 @import url(pagintor.css);
 body {
   width: 100%;
-  background-color: #252525;
+  background-color: white;
   position: relative; }
 
 header.site-header {
@@ -27,11 +27,40 @@ header.site-header {
   clear: both;
   color: #f8f8f8; }
 
+.left-navigation {
+  height: 100%;
+  background-color: #252525;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%; }
+
+.left-navigation-header {
+  text-align: center; }
+
+.left-navigation-header a {
+  color: #99cc33;
+  text-decoration: none; }
+
+.category-list li {
+  display: block; }
+
+.category-list li a {
+  display: block;
+  padding-left: 30%;
+  color: #fff;
+  font-size: 16px; }
+
+.right-part {
+  width: 85%;
+  float: right;
+  over-flow: hidden; }
+
 .page-content {
   background-color: white;
-  margin: 80px auto 20px auto;
+  margin: 40px auto 20px auto;
   min-height: 550px;
-  border: 1px solid #eaeaea;
+  border: 0px solid #eaeaea;
   border-radius: 10px; }
 
 .page-content, .home, .wrapper {
@@ -46,12 +75,16 @@ header.site-header {
 .post-list {
   list-style: none; }
 
+.post-block {
+  margin-bottom: 20px; }
+
 .post-link, .post-date, .post-category {
   font-size: 14px; }
 
 .post-link {
-  display: block;
-  overflow: hidden; }
+  overflow: hidden;
+  font-size: 26px;
+  color: #000; }
 
 .post-link:hover {
   color: #009a61; }
@@ -71,7 +104,8 @@ header.site-header {
   border-top: 2px solid yellow; }
 
 .site-footer {
+  border-top: 1px solid #f8f8f8;
   position: relative;
   bottom: 0;
-  color: #f8f8f8;
+  color: #a8a8a8;
   font-size: 13px; }
