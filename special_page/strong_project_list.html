@@ -2,7 +2,10 @@
 layout: specail
 title: 
 ---
-<link href="/css/zoomimage.css" rel="stylesheet"/>
+
+<link rel="stylesheet" href="/css/themes/default/default.css" type="text/css" media="screen" />
+<link href="/css/themes//light/light.css" rel="stylesheet" media="screen" />
+<link href="/css/nivo-slider.css" rel="stylesheet"/>
 <style type="text/css">
 	p{
 		padding:  10px 0;  
@@ -43,10 +46,53 @@ title:
   			</p>
   		</div>
   		<h3><a href="#back-end-tool-web" id="back-end-tool-web">2.后端配置工具Web</a></h3>
+  		<p>后端配置工具Web是个管理框架数据库脚本和公司客户编码和机器编码等综合功能的一个Web工具。使用ASP.NET WebApi和前端分离的方式进行开发。</p>
+  		<div  class="slider-wrapper theme-default">
+  			 <div id="slider" class="nivoSlider">
+		                <img src="/images/后端配置工具截图/1.png" data-thumb="images/toystory.jpg" alt="" />
+		                <img src="/images/后端配置工具截图/2.png" data-thumb="images/toystory.jpg" alt="" />
+		                <img src="/images/后端配置工具截图/3.png" data-thumb="images/toystory.jpg" alt="" />
+		                <img src="/images/后端配置工具截图/4.png" data-thumb="images/toystory.jpg" alt="" />
+		                <img src="/images/后端配置工具截图/5.png" data-thumb="images/toystory.jpg" alt="" />
+		                <img src="/images/后端配置工具截图/6.png" data-thumb="images/toystory.jpg" alt="" />
+		                <img src="/images/后端配置工具截图/7.png" data-thumb="images/toystory.jpg" alt="" />
+		                <img src="/images/后端配置工具截图/8.png" data-thumb="images/toystory.jpg" alt="" />
+		            </div>
+  		</div>
+  		<h3><a href="#zhuhai-report-table" id="zhuhai-report-table">3.珠海三防系统报表</a></h3>
+  		<p>
+  			珠海三防系统报表系统，通过配置数据库，实现复杂的报表展示功能。
+  		</p>
+  		<div  class="slider-wrapper theme-light">
+  			 <div id="slider2" class="nivoSlider">
+		                <img src="/images/报表配置截图/1.png" data-thumb="images/toystory.jpg" alt="" />
+		                <img src="/images/报表配置截图/2.png" data-thumb="images/toystory.jpg" alt="" />
+		            </div>
+  		</div>
+  		<h3><a href="#mongo-image-manager" id="mongo-image-manager">4.MongoDB图片web管理</a></h3>
+  		<p>
+  			用来管理保存在Mongo数据库中的图片的一个Web系统。提供了对图片查询和下载的功能
+  		</p>
+  		<h3><a href="#fish-safe-item" id="fish-safe-item">5.渔业安全项目</a></h3>
+  		<p>
+  			渔业安全项目是个公益项目，其中，渔船的位置需要进行数据处理，要计算渔船的最后位置，我负责把这些数据处理写成服务的方式进行计算。另外负责对台风数据报文需要进行解析计算，生成json文件提供使用。
+  		</p>
   	</div>
  {% include pagintor.html %}
 </div>
-<!-- <script type="text/javascript" src="/javascript/jquery-1.8.3.min.js"></script>
+ <script type="text/javascript" src="/javascript/jquery-1.8.3.min.js"></script>
+ <!--
 <script type="text/javascript" src="/javascript/eye.js"></script>
 <script type="text/javascript" src="/javascript/utils.js"></script>
 <script type="text/javascript" src="/javascript/zoomimage.js"></script> -->
+<script src="/javascript/jquery.nivo.slider.pack.js"></script>
+<script>
+	(function(){
+		$('#slider').nivoSlider({
+			manualAdvance: true
+		});
+		$('#slider2').nivoSlider({
+			manualAdvance: true	
+		});
+	})()
+</script>
